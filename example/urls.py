@@ -5,5 +5,6 @@ from example.views import index
 
 
 urlpatterns = [
-    path('', index),
+    # path('', index),
+    path('get', index, name='sample_get_api'),
 ]
